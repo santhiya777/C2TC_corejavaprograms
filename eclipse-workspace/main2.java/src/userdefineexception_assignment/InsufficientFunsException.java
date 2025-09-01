@@ -1,10 +1,8 @@
-package userdefineexception_assignment;
+package userdefinedexception_assignment;
 
-public class InsufficientFunsException {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+public class InsufficientFundsException extends Exception{
+	public InsufficientFundsException(String message) {
+		super(message);
 	}
 
 }

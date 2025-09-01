@@ -1,10 +1,67 @@
-package userdefineexception_assignment;
+package userdefinedexception_assignment;
 
-public class InvalidAmountException {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+public class InvalidAmountException extends Exception{
+	public InvalidAmountException(String message) {
+		super(message);
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
++-
